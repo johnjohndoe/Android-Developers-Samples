@@ -12,7 +12,9 @@ Contribution
 Feel free to send pull requests if you find out about updates to the sample before I do ...
 Please mind that you might need to update the `.gitignore` file to exclude noise contained in the `.zip` archives.
 
----
+
+
+![Pink Android](https://raw2.github.com/johnjohndoe/Android-Developers-Samples/master/pink-android.png "Pink Android")
 
 
 Android Developers Samples
