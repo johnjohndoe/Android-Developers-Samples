@@ -18,7 +18,7 @@
 
 
 <resources>
-    <string name="app_name">repeatingAlarm</string>
+    <string name="app_name">RepeatingAlarm</string>
     <string name="intro_message">
         <![CDATA[
         
