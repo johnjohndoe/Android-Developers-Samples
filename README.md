@@ -5,6 +5,13 @@ This repository is a mirror of the [source code projects provided by Google][1].
 
 Each project contains the `README.md` with the **original description of the specific project**. There is also a link to the **original source** of the project at the end of each `README.md`.
 
+
+Contribution
+------------
+
+Feel free to send pull requests if you find out about updates to the sample before I do ...
+Please mind that you might need to update the `.gitignore` file to exclude noise contained in the `.zip` archives.
+
 ---
 
 
