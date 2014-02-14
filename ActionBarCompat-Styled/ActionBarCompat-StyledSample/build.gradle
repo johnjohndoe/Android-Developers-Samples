@@ -7,7 +7,7 @@ buildscript {
     }
 
     dependencies {
-        classpath 'com.android.tools.build:gradle:0.6.+'
+        classpath 'com.android.tools.build:gradle:0.8.+'
     }
 }
 
@@ -15,8 +15,8 @@ apply plugin: 'android'
 
 dependencies {
     // Add the support lib that is appropriate for SDK 7
-    compile "com.android.support:support-v4:18.0.+"
-    compile "com.android.support:gridlayout-v7:18.0.+"
+    compile "com.android.support:support-v4:19.0.+"
+    compile "com.android.support:gridlayout-v7:19.0.+"
     compile "com.android.support:appcompat-v7:18.0.+"
 }
 
@@ -30,7 +30,7 @@ List<String> dirs = [
 
 android {
     compileSdkVersion 19
-    buildToolsVersion "19"
+    buildToolsVersion "19.0.1"
 
     sourceSets {
         main {
