@@ -26,8 +26,11 @@
     <style name="Widget" />
 
     <style name="Widget.SampleMessage">
+        <item name="android:padding">@dimen/margin_medium</item>
         <item name="android:textAppearance">?android:textAppearanceMedium</item>
         <item name="android:lineSpacingMultiplier">1.1</item>
+        <item name="android:layout_margin">16dp</item>
+        <item name="android:shadowDy">-6.5</item>
     </style>
 
     <style name="Widget.SampleMessageTile">

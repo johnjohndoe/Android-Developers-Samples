@@ -15,25 +15,23 @@
   -->
 <LinearLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
-        android:orientation="vertical"
+        android:orientation="horizontal"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:id="@+id/sample_main_layout">
     <TextView android:id="@+id/sample_output"
               style="@style/Widget.SampleMessage"
+              android:background="@android:color/white"
               android:layout_weight="1"
               android:layout_width="match_parent"
               android:layout_height="match_parent"
               android:text="@string/intro_message"
-              android:padding="16dp" />
-    <View
-            android:layout_width="fill_parent"
-            android:layout_height="1dp"
-            android:background="@android:color/darker_gray"/>
+              android:layout_margin="16dp" />
     <fragment
             android:name="com.example.android.common.logger.LogFragment"
             android:id="@+id/log_fragment"
             android:layout_weight="1"
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:layout_height="match_parent"
+            android:layout_margin="16dp" />
 </LinearLayout>

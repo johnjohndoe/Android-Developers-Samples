@@ -21,19 +21,16 @@
         android:id="@+id/sample_main_layout">
     <TextView android:id="@+id/sample_output"
               style="@style/Widget.SampleMessage"
-              android:layout_weight="1"
+              android:background="@android:color/white"
               android:layout_width="match_parent"
-              android:layout_height="match_parent"
+              android:layout_height="wrap_content"
               android:text="@string/intro_message"
-              android:padding="16dp" />
-    <View
-            android:layout_width="fill_parent"
-            android:layout_height="1dp"
-            android:background="@android:color/darker_gray"/>
+              android:padding="16dp"
+              android:layout_margin="16dp"/>
     <fragment
             android:name="com.example.android.common.logger.LogFragment"
             android:id="@+id/log_fragment"
-            android:layout_weight="1"
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:layout_height="match_parent"
+            android:layout_margin="16dp" />
 </LinearLayout>
