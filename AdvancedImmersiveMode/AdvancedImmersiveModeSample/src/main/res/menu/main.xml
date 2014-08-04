@@ -15,7 +15,7 @@
   -->
 
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:id="@+id/sample_action"
-          android:showAsAction="ifRoom|withText"
-          android:title="@string/sample_action" />
+    <item android:id="@+id/menu_toggle_log"
+          android:showAsAction="always"
+          android:title="@string/sample_show_log" />
 </menu>

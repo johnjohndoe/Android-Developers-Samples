@@ -7,15 +7,19 @@ buildscript {
     }
 
     dependencies {
-        classpath 'com.android.tools.build:gradle:0.8.+'
+        classpath 'com.android.tools.build:gradle:0.9.+'
     }
 }
 
 apply plugin: 'android'
 
+
 dependencies {
+
     // Add the support lib that is appropriate for SDK 3
-    compile "com.android.support:support-v4:19.0.+"
+    compile "com.android.support:support-v4:19.1.+"
+
+
 }
 
 // The sample build uses multiple directories to
@@ -28,6 +32,7 @@ List<String> dirs = [
 
 android {
     compileSdkVersion 19
+
     buildToolsVersion "19.0.1"
 
     sourceSets {
@@ -37,8 +42,9 @@ android {
                 res.srcDirs "src/${dir}/res"
             }
         }
-        instrumentTest.setRoot('tests')
-        instrumentTest.java.srcDirs = ['tests/src']
+        androidTest.setRoot('tests')
+        androidTest.java.srcDirs = ['tests/src']
+
     }
 }
 
