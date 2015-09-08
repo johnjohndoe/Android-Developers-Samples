@@ -14,7 +14,7 @@ Please mind that you might need to update the `.gitignore` file to exclude noise
 
 
 
-![Pink Android](https://raw2.github.com/johnjohndoe/Android-Developers-Samples/master/pink-android.png "Pink Android")
+![Pink Android](pink-android.png "Pink Android")
 
 
 Android Developers Samples
